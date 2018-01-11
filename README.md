@@ -18,7 +18,7 @@ For the last fifteen years or so I have used several blogging solutions: Blogger
 
 So I decided to create this system myself. I call it BlogGit, as it kind of resembles a blogging system and is totally based on Git (blogging, blog it, blog&git... what a terrific name, I know).
 
-## So, what is BlogGit and what does it for you?
+## So, what is BlogGit and what does it do for you?
 
 BlogGit is nothing else than two short shell scripts (`readme.sh` and `publi.sh`) and a specific workflow. About the scripts, do not expect too much. This is the very first time in my life writing shell code, so I have been taking snippets from here and there until the code kind of works the way I want. About the workflow, you will find everything you need to know below.
 
