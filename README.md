@@ -32,7 +32,7 @@ Some things BlogGit assumes:
 
 If you fulfill these conditions, you just need to follow the following steps to use BlogGit. 
 
-## Step 1 -- Fork a copy of [my BlogGit repository](https://github.com/almata/BlogGit) to your GitHub account. 
+## Step 1 − Fork a copy of [my BlogGit repository](https://github.com/almata/BlogGit) to your GitHub account
 
 And take a minute to go to Settings and give it a better name (I use SENotebook for my notebook, but that's just an idea). You will get __exactly six files__:
 
@@ -41,7 +41,7 @@ And take a minute to go to Settings and give it a better name (I use SENotebook 
 * Two text files `readme-header-content.md` and `readme-footer-content.md`. Edit them as you like.
 * A `LICENSE` file. Edit it as you like.
 
-## Step 2 -- Clone your BlogGit repository locally.
+## Step 2 − Clone your BlogGit repository locally
 
 ```bash
 $ git clone https://github.com/<your-github-username>/<the-name-you-gave-it>.git
@@ -49,11 +49,11 @@ $ git clone https://github.com/<your-github-username>/<the-name-you-gave-it>.git
 
 From now on you will do all your work in this directory. Also, use `git remote -v` to ensure `origin` has been set.
 
-## Step 3 -- Customize the content of your `README.md` file.
+## Step 3 − Customize the content of your `README.md` file
 
 Your `README.md` file will be automatically generated every time you publish new content. However, you can customize what will be shown __before all your notes__ (`readme-header-content.md`) and what will be shown __after all your notes__ (`readme-footer-content.md`). So, edit these two files using standard Markdown syntax to fit your needs.
 
-## Step 4 -- Add some content.
+## Step 4 − Add some content
 
 Create a new directory for each subject and a plain Markdown file for each note. As simple as that. As an example, BlogGit comes with a couple of directories (`Demo-Python` and `Demo-DataScience`) and some notes. Feel free to delete them when you have your own content. And always keep in mind these simple rules:
 
@@ -61,7 +61,7 @@ Create a new directory for each subject and a plain Markdown file for each note.
 * Use `.md` extension for your notes. As in `my-first-note.md`.
 * First line in your notes should always be __# Your note's title__. Exactly with that syntax: one `#` character, one space and the title.
 
-## Step 5 -- Publish your content.
+## Step 5 − Publish your content
 
 Whenever you feel like publishing all the content you have created, just run main script:
 
@@ -69,12 +69,12 @@ Whenever you feel like publishing all the content you have created, just run mai
 $ ./publi.sh 
 ```
 
-## Step 6 (optional) -- Add some other content here and there.
+## Step 6 (optional) − Add some other content here and there
 
 If you want to add some additional content in your `README.md` file (through `readme-header-content.md` and `readme-footer-content.md`) and need to create some subdirectories in your main directory but do not want those to be considered categories and be listed in the `README.md` as such, just name your subdirectories with an initial `.` (as in `.SomeContent`). BlogGit will track these directories (for version control purposes) but will not take them into account to generate `README.md`.
 
-## Step 7 (optional) -- Enable GitHub Pages
+## Step 7 (optional) − Enable GitHub Pages
 
 You can enable GitHub Pages for your repository (look for that option in Settings) and you will get a nicer version of it and a URL like https://<your-github-username>.github.io/SENotebook. GitHub Pages even lets you choose a theme and customize it using standard CSS syntax. I have not done that for my own Software Engineering Notebook as I find GitHub interface clean enough, but the option is there for those who want to give it a go.
 
-__You can find a working example of BlogGit at my [Software Engineering Notebook](https://github.com/almata/SENotebook)__.
+__You can find a working example of BlogGit at my [Software Engineering Notebook](https://github.com/almata/SENotebook/blob/master/README.md)__.
