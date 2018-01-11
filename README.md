@@ -75,6 +75,6 @@ If you want to add some additional content in your `README.md` file (through `re
 
 ## Step 7 (optional) − Enable GitHub Pages
 
-You can enable GitHub Pages for your repository (look for that option in Settings) and you will get a nicer version of it and a URL like https://<your-github-username>.github.io/SENotebook. GitHub Pages even lets you choose a theme and customize it using standard CSS syntax. I have not done that for my own Software Engineering Notebook as I find GitHub interface clean enough, but the option is there for those who want to give it a go.
+You can enable GitHub Pages for your repository (look for that option in Settings) and you will get a nicer version of it and a URL like https://almata.github.io/SENotebook. GitHub Pages even lets you choose a theme and customize it using standard CSS syntax. I have not done that for my own Software Engineering Notebook as I find GitHub interface clean enough, but the option is there for those who want to give it a go.
 
 __You can find a working example of BlogGit at my [Software Engineering Notebook](https://github.com/almata/SENotebook/blob/master/README.md)__.
