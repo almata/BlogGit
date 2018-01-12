@@ -34,18 +34,20 @@ If you fulfill these conditions, you just need to follow the following steps to 
 
 ## Step 1 − Fork a copy of [my BlogGit repository](https://github.com/almata/BlogGit) to your GitHub account
 
-And take a minute to go to Settings and give it a better name (I use SENotebook for my notebook, but that's just an idea). You will get __exactly six files__:
-
-* Two script files (`publi.sh` and `readme.sh`). __Do not edit them__ (but have a look at the code if you feel like it).
-* A pretty empty `CHANGELOG.md`. BlogGit will update it every time you publish new content. __Do not edit it__.
-* Two text files `readme-header-content.md` and `readme-footer-content.md`. Edit them as you like.
-* A `LICENSE` file. Edit it as you like.
+And take a minute to go to Settings and give it a better name (I use SENotebook for my notebook, but that's just an idea). 
 
 ## Step 2 − Clone your BlogGit repository locally
 
 ```bash
 $ git clone https://github.com/<your-github-username>/<the-name-you-gave-it>.git
 ```
+
+You will get __exactly six files__:
+
+* Two script files (`publi.sh` and `readme.sh`). __Do not edit them__ (but have a look at the code if you want).
+* An almost empty `CHANGELOG.md`. BlogGit will update it every time you publish new content. __Do not edit it__.
+* Two text files `readme-header-content.md` and `readme-footer-content.md`. Edit them as you like.
+* A `LICENSE` file. Edit it as you like.
 
 From now on you will do all your work in this directory. Also, use `git remote -v` to ensure `origin` has been set.
 
@@ -55,7 +57,7 @@ Your `README.md` file will be automatically generated every time you publish new
 
 ## Step 4 − Add some content
 
-Create a new directory for each subject and a plain Markdown file for each note. As simple as that. As an example, BlogGit comes with a couple of directories (`Demo-Python` and `Demo-DataScience`) and some notes. Feel free to delete them when you have your own content. And always keep in mind these simple rules:
+Create a new directory for each category you want in your notebook and a plain Markdown file for each note. As simple as that. As an example, BlogGit comes with a couple of directories (`Demo-Python` and `Demo-DataScience`) and some notes. Feel free to delete them when you have your own content. And always keep in mind these simple rules:
 
 * Do not use spaces in your names. Ever. Use-dashes or CamelCase, but totally avoid spaces.
 * Use `.md` extension for your notes. As in `my-first-note.md`.
