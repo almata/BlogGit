@@ -25,7 +25,3 @@ fi
 git add .
 git commit -m "$title"
 git push -u origin master
-
-
-
-
