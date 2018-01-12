@@ -36,7 +36,7 @@ If you fulfill these conditions, you just need to follow the following steps to 
 
 And take a minute to go to Settings and give it a better name (I use SENotebook for my notebook, but that's just an idea). 
 
-## Step 2 − Clone your BlogGit repository locally
+## Step 2 − Clone your new repository to create a local copy on your computer
 
 ```bash
 $ git clone https://github.com/<your-github-username>/<the-name-you-gave-it>.git
